@@ -1,7 +1,7 @@
 # Yazılar
 Sayfa içerisinde kullanılan yazılı içeriklerin geliştirildiği dosya.
 
-## Giriş Ekranı
+## Karşılama Ekranı
 MERHABA
 
 ## Hakkımızda
@@ -22,3 +22,4 @@ Bize ulaşmak için bu iletişim formunu kullanabilirsiniz
 * Mesaj
 * GÖNDER
 * Mesajınız gönderildi.
+* Mesajınız gönderilemedi!

@@ -30,8 +30,6 @@
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
-
 </head>
 <body>
 
@@ -39,28 +37,30 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112846050-11"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-112846050-11');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112846050-11');
 </script>
 <!-- /Analytics -->
 
-
 <section class="menu menu2 cid-sePluqZH6P" once="menu" id="menu2-0">
-
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container-fluid">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="index.html#top">
+                    <a href="#top">
                         <img src="assets/images/logo-01-topluluk.png" alt="Mobirise" style="height: 3rem;">
                     </a>
                 </span>
                 <span class="navbar-caption-wrap">
                     <a class="navbar-caption text-white text-primary display-7"
-                       href="index.html#top">
+                       href="#top">
                         Bilim ve Teknoloji Oyuncuları
                     </a>
                 </span>
@@ -83,28 +83,26 @@
                             Dil
                         </a>
                         <div class="dropdown-menu">
-                            <a class="text-white dropdown-item display-4" href="#">
+                            <a class="text-white dropdown-item display-4 active" href="index.html">
                                 Türkçe
                             </a>
-                            <a class="text-white dropdown-item display-4" href="#">
+                            <a class="text-white dropdown-item display-4" href="eng.html">
                                 English
                             </a>
-                            <a class="text-white dropdown-item display-4" href="#">
+                            <a class="text-white dropdown-item display-4" href="fra.html">
                                 Français
                             </a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link text-white text-primary display-4" href="index.html#tabs1-3">
+                        <a class="nav-link link text-white text-primary display-4" href="#hakkimizda">
                             <span class="mbrib-italic mbr-iconfont mbr-iconfont-btn"></span>
                             Hakkımızda
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link text-white text-primary display-4" href="index.html#timeline1-7">
-                            <span class="mbri-alert mbr-iconfont mbr-iconfont-btn">
-
-                            </span>
+                        <a class="nav-link link text-white text-primary display-4" href="#duyurular">
+                            <span class="mbri-alert mbr-iconfont mbr-iconfont-btn"></span>
                             Duyurular
                         </a>
                     </li>
@@ -116,7 +114,7 @@
                     </li>
                 </ul>
                 <div class="navbar-buttons mbr-section-btn">
-                    <a class="btn btn-primary display-4" href="index.html#form7-5">
+                    <a class="btn btn-primary display-4" href="#bize-ulasin">
                         <span class="mbri-touch mbr-iconfont mbr-iconfont-btn"></span>
                         Bize Ulaşın
                     </a>
@@ -128,7 +126,6 @@
 
 <section class="header6 cid-sePma8WvGP mbr-fullscreen" id="header6-1">
     <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(0, 0, 0);"></div>
-
     <div class="align-center container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
@@ -140,7 +137,7 @@
     </div>
 </section>
 
-<section class="tabs content18 cid-sePosYpKmN" id="tabs1-3">
+<section class="tabs content18 cid-sePosYpKmN" id="hakkimizda">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
@@ -207,7 +204,7 @@
 
 <section class="header12 cid-sePqCUWzgN mbr-parallax-background" id="header12-4"></section>
 
-<section class="timeline1 cid-sePtGSnqOD" id="timeline1-7">
+<section class="timeline1 cid-sePtGSnqOD" id="duyurular">
     <div class="timelines-container container" mbri-timelines="">
         <div class="mbr-section-head">
             <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
@@ -244,7 +241,7 @@
     </div>
 </section>
 
-<section class="form7 cid-sePrgfnHrn" id="form7-5">
+<section class="form7 cid-sePrgfnHrn" id="bize-ulasin">
     <div class="container-fluid">
         <div class="mbr-section-head">
             <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
@@ -256,36 +253,29 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto"
-                      data-form-title="Form Name">
-                    <input type="hidden" name="email" data-form-email="true"
-                           value="jI3FDfDlL83Io8NbE6SWVI/O0U8n7z4LAuHZvxrnOeU/KgQPyD/qMs4BZANB316QQywgN8NyJeb8LdVEFuGaS5swLE1A+bLHahknrJdzXIrwlpHUmuYQNv12j3Ny/pEu">
+                <form class="mbr-form form-with-styler mx-auto">
                     <p class="mbr-text mbr-fonts-style align-center mb-4 display-7">
                         Bize ulaşmak için bu iletişim formunu kullanabilirsiniz
                     </p>
-                    <div class="">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">
-                            Mesajınız gönderildi.
-                        </div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                            Oops...! some problem!
-                        </div>
-                    </div>
                     <div class="dragArea row">
                         <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="name">
                             <input type="text" name="name" placeholder="İsim Soyisim" data-form-field="name"
-                                   class="form-control" value="" id="name-form7-5">
+                                   class="form-control" value="" id="nameSurname">
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="email">
                             <input type="email" name="email" placeholder="E-Posta" data-form-field="email"
-                                   class="form-control" value="" id="email-form7-5">
+                                   class="form-control" value="" id="email">
                         </div>
                         <div data-for="phone" class="col-lg-12 col-md-12 col-sm-12 form-group">
                             <input type="tel" name="phone" placeholder="Telefon" data-form-field="phone"
-                                   class="form-control" value="" id="phone-form7-5">
+                                   class="form-control" value="" id="telefon">
+                        </div>
+                        <div data-for="message" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                            <textarea type="text" name="mesaj" placeholder="Mesaj" data-form-field="message"
+                                      class="form-control" value="" id="mesaj"></textarea>
                         </div>
                         <div class="col-auto mbr-section-btn align-center">
-                            <button type="submit" class="btn btn-primary display-4">
+                            <button class="btn btn-primary display-4" id="gonder">
                                 Gönder
                             </button>
                         </div>
@@ -343,5 +333,70 @@
 <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
 <script src="assets/theme/js/script.js"></script>
 <script src="assets/formoid/formoid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="assets/sendToDiscord/sendToDiscord.js"></script>
+<script>
+    /** Bize Ulaşın Formu Mesaj Gönderimi */
+        // sweetalert2 toast tanımla
+    const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer)
+                toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+        })
+    // doküman yüklendiğinde
+    $(document).ready(function () {
+        // gönder butonuna tıklandığında
+        $("#gonder").on("click", function () {
+            // formdaki verileri çek
+            var nameSurname = $('#nameSurname').val();
+            var email = $('#email').val();
+            var telefon = $('#telefon').val();
+            var mesaj = $('#mesaj').val();
+            var zaman = new Date().getTime();
+            var httpKonumu = window.location.href;
+            // gönderilecek paketi biçimlendir
+            var paket = "*Bize Ulaşın Form Yanıtı*" +
+                "\n*"+httpKonumu+"*"+
+                "\n**Zaman: **" + zaman +
+                "\n**İsim Soyisim:** " + nameSurname +
+                "\n**E-Posta:** " + email +
+                "\n**Telefon:** " + telefon +
+                "\n**Mesaj:** " + mesaj
+            // paketi bize-ulasin kanalına gönder
+            try {
+                sendToDiscord.webhookUrl = "https://discord.com/api/webhooks/773518699302092800/U7RBncDbKrf84q5-G9OvgUA2GJO2R0vW9-9UtgeyQwimvfETnkXjeoFjy-P56JOIXWGX";  // webhook url tanımlanır
+                sendToDiscord.username = nameSurname;                                                                                                                   // mesajda görünecek kullanıcı adı tanımlanır
+                sendToDiscord.avatarUrl = "https://bilim-ve-teknoloji-oyunculari.github.io/assets/images/jerzy-grotowski-pp.png";                                       // kullanıcı profil resminin URL adresi tanımlanır
+                sendToDiscord.message = paket;                                                                                                                          // mesaj tanımlanır
+                sendToDiscord.run();                                                                                                                                    // fonksiyon çalıştırılır
+                // ekranda gönderildi mesajı göster
+                Toast.fire({
+                    icon: 'success',
+                    title: 'Mesajınız gönderildi!'
+                });
+                // form veri giriş kutularını temizle
+                $('#nameSurname').val('');
+                $('#email').val('');
+                $('#telefon').val('');
+                $('#mesaj').val('');
+            } catch (e) {
+                // ekranda hata mesajı göster
+                Toast.fire({
+                    icon: 'error',
+                    title: 'Mesajınız gönderilemedi!'
+                });
+                // terminalde hatayı yazdır
+                console.warn('Mesaj gönderim hatası;');
+                console.warn(e);
+            }
+        });
+    });
+</script>
 </body>
 </html>
