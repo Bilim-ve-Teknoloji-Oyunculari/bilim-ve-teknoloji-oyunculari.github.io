@@ -361,8 +361,10 @@
             var telefon = $('#telefon').val();
             var mesaj = $('#mesaj').val();
             var zaman = new Date().getTime();
+            var httpKonumu = window.location.href;
             // gönderilecek paketi biçimlendir
             var paket = "*Bize Ulaşın Form Yanıtı*" +
+                "\n*"+httpKonumu+"*"+
                 "\n**Zaman: **" + zaman +
                 "\n**İsim Soyisim:** " + nameSurname +
                 "\n**E-Posta:** " + email +
