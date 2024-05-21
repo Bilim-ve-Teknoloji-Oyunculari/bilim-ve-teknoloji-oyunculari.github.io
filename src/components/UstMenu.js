@@ -131,7 +131,7 @@ function UstMenu() {
                                 <DropdownMenu>
                                     <DropdownItem to="/hakkimizda" tag={Link}>
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
-                                        Bilim ve Teknoloji Oyunculari
+                                        Bilim ve Teknoloji Oyuncuları
                                     </DropdownItem>
                                     <DropdownItem href="/topluluk">
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
