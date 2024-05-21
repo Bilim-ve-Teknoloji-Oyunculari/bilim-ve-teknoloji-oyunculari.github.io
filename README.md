@@ -1,6 +1,6 @@
 # BTO Preview
 
-This is a preview of the BTO (Bilim ve Teknoloji Oyuncuları) website.
+This is BTO (Bilim ve Teknoloji Oyuncuları) website repository.
 
 ## Installation
 

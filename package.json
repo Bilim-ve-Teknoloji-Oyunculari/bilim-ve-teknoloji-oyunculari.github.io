@@ -1,6 +1,7 @@
 {
   "name": "now-ui-kit-react",
   "version": "1.5.2",
+  "homepage": "https://bilim-ve-teknoloji-oyunculari.github.io/",
   "private": true,
   "dependencies": {
     "@fullcalendar/core": "^6.1.8",
@@ -23,6 +24,8 @@
     "sass": "1.62.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,7 +33,6 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css",
     "minify-sass": "sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.min.css --style compressed",
-    "deploy": "react-scripts build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
