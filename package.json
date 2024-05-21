@@ -1,6 +1,7 @@
 {
   "name": "now-ui-kit-react",
   "version": "1.5.2",
+  "homepage": "https://bilim-ve-teknoloji-oyunculari.github.io/",
   "private": true,
   "dependencies": {
     "@fullcalendar/core": "^6.1.8",
@@ -23,6 +24,8 @@
     "sass": "1.62.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -60,6 +63,7 @@
     "chokidar": "3.5.3"
   },
   "devDependencies": {
-    "@testing-library/react": "^14.1.2"
+    "@testing-library/react": "^14.1.2",
+    "gh-pages": "^6.1.1"
   }
 }
