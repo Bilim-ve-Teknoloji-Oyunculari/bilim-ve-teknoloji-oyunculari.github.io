@@ -133,7 +133,7 @@ function UstMenu() {
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Bilim ve Teknoloji Oyunculari
                                     </DropdownItem>
-                                    <DropdownItem href="/topluluk">
+                                    <DropdownItem href="/topluluk" tag={Link}>
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Tiyatro Topluluğu
                                     </DropdownItem>
