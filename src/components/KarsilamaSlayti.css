@@ -1,0 +1,14 @@
+.carousel-inner{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    overflow: hidden
+}
+
+.carousel-item-next img,
+.carousel-item-prev img,
+.carousel-item.active img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
