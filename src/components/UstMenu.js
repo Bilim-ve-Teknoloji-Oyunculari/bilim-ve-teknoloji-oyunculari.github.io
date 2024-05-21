@@ -111,7 +111,7 @@ function UstMenu() {
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Etkinliklerimiz
                                     </DropdownItem>
-                                    <DropdownItem href="/etkinlik-takvimi">
+                                    <DropdownItem href="/etkinlik-takvimi" tag={Link}>
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Etkinlik Takvimi
                                     </DropdownItem>
