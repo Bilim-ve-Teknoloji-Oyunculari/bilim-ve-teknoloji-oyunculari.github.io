@@ -111,7 +111,7 @@ function UstMenu() {
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Etkinliklerimiz
                                     </DropdownItem>
-                                    <DropdownItem href="/etkinlik-takvimi" tag={Link}>
+                                    <DropdownItem href="/etkinlik-takvimi">
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Etkinlik Takvimi
                                     </DropdownItem>
@@ -133,7 +133,7 @@ function UstMenu() {
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Bilim ve Teknoloji Oyunculari
                                     </DropdownItem>
-                                    <DropdownItem href="/topluluk" tag={Link}>
+                                    <DropdownItem href="/topluluk">
                                         <i className="now-ui-icons ui-1_calendar-60" style={styles.fa6icon}></i>
                                         Tiyatro Topluluğu
                                     </DropdownItem>
