@@ -7,7 +7,7 @@ This is BTO (Bilim ve Teknoloji Oyuncuları) website repository.
 Use the Node Package Manager [npm](https://www.npmjs.com/) to install the dependencies.
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ## Usage
