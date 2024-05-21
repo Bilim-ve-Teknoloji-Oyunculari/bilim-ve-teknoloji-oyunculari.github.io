@@ -34,23 +34,23 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <Provider store={store}>
-        <BrowserRouter>
+        < BrowserRouter basename={ `/${process.env.PUBLIC_URL}`}>
             <Routes>
-                <Route path="/" element={<Index/>}/>
-                <Route path="/oyunlar" element={<Oyunlar/>}/>
-                <Route path="/oyunlar/cimri" element={<Cimri/>}/>
-                <Route path="/oyunlar/kibarlik-budalasi" element={<KibarlikBudalasi/>}/>
-                <Route path="/oyunlar/bir-kadin-icin-duet" element={<BirKadinIcinDuet/>}/>
-                <Route path="/kulis" element={<Kulis/>}/>
-                <Route path="/etkinliklerimiz" element={<Etkinliklerimiz/>}/>
-                <Route path="/etkinliklerimiz/oyunculuk-egitimi" element={<OyunculukEgitimi/>}/>
-                <Route path="/etkinliklerimiz/kampus-temizligi" element={<KampusTemizligi/>}/>
-                <Route path="/etkinliklerimiz/fidan-dikimi" element={<FidanDikimi/>}/>
-                <Route path="/etkinlik-takvimi" element={<EtkinlikTakvimi/>}/>
-                <Route path="/duyurular" element={<Duyurular/>}/>
-                <Route path="/hakkimizda" element={<Hakkimizda/>}/>
-                <Route path="/topluluk" element={<Topluluk/>}/>
-                <Route path="/iletisim" element={<Iletisim/>}/>
+                <Route path="" element={<Index/>}/>
+                <Route path="oyunlar" element={<Oyunlar/>}/>
+                <Route path="oyunlar/cimri" element={<Cimri/>}/>
+                <Route path="oyunlar/kibarlik-budalasi" element={<KibarlikBudalasi/>}/>
+                <Route path="oyunlar/bir-kadin-icin-duet" element={<BirKadinIcinDuet/>}/>
+                <Route path="kulis" element={<Kulis/>}/>
+                <Route path="etkinliklerimiz" element={<Etkinliklerimiz/>}/>
+                <Route path="etkinliklerimiz/oyunculuk-egitimi" element={<OyunculukEgitimi/>}/>
+                <Route path="etkinliklerimiz/kampus-temizligi" element={<KampusTemizligi/>}/>
+                <Route path="etkinliklerimiz/fidan-dikimi" element={<FidanDikimi/>}/>
+                <Route path="etkinlik-takvimi" element={<EtkinlikTakvimi/>}/>
+                <Route path="duyurular" element={<Duyurular/>}/>
+                <Route path="hakkimizda" element={<Hakkimizda/>}/>
+                <Route path="topluluk" element={<Topluluk/>}/>
+                <Route path="iletisim" element={<Iletisim/>}/>
 
                 <Route path="*" element={<Navigate to="/" replace/>}/>
             </Routes>
