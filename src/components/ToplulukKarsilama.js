@@ -14,19 +14,19 @@ function ToplulukKarsilama(props){
                     <div className="photo-container">
                         <img src={logo01kare} alt="" loading="lazy"/>
                     </div>
-                    <h3 className="title">Tiyatro Öğrenci Topluluğu</h3>
-                    <p className="category">ATÜ</p>
+                    <h3 className="title">{props.baslik}</h3>
+                    <p className="category">{props.altBaslik}</p>
                     <div className="content">
                         <div className="social-description">
-                            <h2>4</h2>
+                            <h2>{props.detay.etkinlik}</h2>
                             <p className="pivot-brand">Etkinlik</p>
                         </div>
                         <div className="social-description">
-                            <h2>2</h2>
+                            <h2>{props.detay.oyun}</h2>
                             <p className="pivot-brand">Oyun</p>
                         </div>
                         <div className="social-description">
-                            <h2>16</h2>
+                            <h2>{props.detay.uye}</h2>
                             <p className="pivot-brand">Üye</p>
                         </div>
                     </div>
