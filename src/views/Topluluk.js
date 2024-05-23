@@ -44,6 +44,8 @@ function Topluluk() {
                     <ToplulukKarsilama
                         arkaplan={imgKarsilama3}
                         logo={logo01kare}
+                        baslik={topluluk.detay.baslik}
+                        altBaslik={topluluk.detay.altBaslik}
                         detay={topluluk.detay}
                     />
                     <ToplulukIcerik/>
